@@ -1,2 +1,2 @@
 # EspadaRapida
-Um projeto de blog simples para estudos pessoais de web design.
+Um projeto de blog simples sobre quadrinhos japoneses e cultura pop em geral para aprendizado e prática de web design.
