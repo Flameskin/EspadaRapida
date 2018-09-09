@@ -1,19 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Bahiana|Baloo+Bhaijaan|Barrio|Open+Sans+Condensed:300|Oswald|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poor+Story');
 
 .bg-image {
-  background-image: linear-gradient(90deg, white,white, transparent), url("imgs/Background.jpg");
+  background-image: linear-gradient(90deg,white, white, transparent), url("imgs/Background.jpg");
+  
+  background-position: right bottom, right bottom;
   background-color: white;
-  height: 600px;
-  background-position: right bottom;
+  height: 850px;
   background-repeat: no-repeat;
   background-size:auto;
 }
 
 .titulo {
     color: #ffffcc;
-    background-color: #ff4d4d;
+    background-image: linear-gradient(90deg,#ff4d4d,transparent), url("imgs/Irene_manga.png");
+    background-position: 0, right -100;
+    background-repeat: no-repeat;
     font-family: "Open Sans Condensed";
     padding-left: 40px;
     font-size: 60px;
-    padding: -10px 0px 90px 10px;
+    padding: 1px 0px 40px 40px;
+}
+
+
+.subTitulo {
+    font-family: "Poor Story";
+    color: black;
+    position: absolute; top: 70; left: 50;
+}
+
+.post{
+    float: left;
+    width: 60%;
+    border-width: 2px;
+    border-color: black;
+    border-style: ridge;
+    margin: 10px;
+    padding: 20px;
 }
